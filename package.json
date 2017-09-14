@@ -1,0 +1,25 @@
+{
+  "name": "mobx-linkedlist",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha --reporter spec --compilers ts:ts-node/register \"./test/**/*.test.ts\" --recursive --watch",
+    "prepublish": "tsc"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.0.4",
+    "@types/mocha": "^2.2.43",
+    "@types/sinon": "^2.3.4",
+    "chai": "^4.1.2",
+    "mobx": "^3.2.2",
+    "mocha": "^3.5.3",
+    "sinon": "^3.2.1",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.5.2"
+  },
+  "dependencies": {
+    "@types/uuid": "^3.4.2",
+    "uuid": "^3.1.0"
+  }
+}
